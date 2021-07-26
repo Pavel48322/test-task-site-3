@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h5, h6, p, span {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1530px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+/* Intro
+==================== */
+
+.intro {
+    background: rgb(203, 203, 203);
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.intro__inner {
+    display: flex;
+}
+
+/* Catalog 
+==================== */
+
+.intro__catalog {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro__catalog__item {
+    border-radius: 3px;
+    cursor: pointer;
+    background: #fff;
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.catolog__logo {
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.catolog__title {
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+    background: rgb(24, 167, 228);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+/* Slider 
+==================== */
+
+.intro__slider {
+    width: 995px;
+    height: 100%;
+    position: relative;
+}
+
+.intro__slider__logo {
+    width: 995px;
+    height: 540px;
+}
+
+.intro__prev {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    z-index: 10;
+
+}
+
+.intro__next {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    z-index: 10;
+
+}
+
+/* Info 
+==================== */
+
+.info {
+    background: rgb(203, 203, 203);
+    padding-bottom: 50px;
+}
+
+.info__inner {
+    background: #fff;
+    display: flex;
+    height: 500px;
+}
+
+.info__slider {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.info__slider__logo {
+    width: 765px;
+    height: 500px;
+}
+
+.info__prev {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    z-index: 10;
+}
+
+.info__next {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    z-index: 10;
+
+}
+
+.info__content {
+    width: 50%;
+    height: 100%;
+}
+
+.info__title {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 45px;
+    
+}
+
+.info__text {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 24px;
+}
+
+.info__btn {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 8px;
+    color: #06526b;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #06526b;
+    border-radius: 50px;
+}
+
+/* Products 
+==================== */
+
+.products {
+    padding-top: 50px;
+}
+
+.products__title {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.products__inner {
+    display: flex;
+}
+
+.products__item {
+    background: rgb(199, 199, 199);
+    width: 29%;
+    margin-left: 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.products__item:first-child {
+    margin-left: 50px;
+}
+
+.products__item__title {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.products__link {
+    color: #000;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.products__link:hover {
+    text-decoration:underline;
+}
+
+/* Dot 
+==================== */
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+.carousel-indicators {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+
+.dot {
+    margin-left: 10px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+/* Helicopters 
+==================== */
+
+.section {
+    background: rgb(203, 203, 203);
+}
+
+.inner {
+    border-bottom: 1px solid rgb(121, 121, 121);
+}
+
+.item {
+    height: 350px;
+}
+
+.title {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.text {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.price {
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: red;
+}
+
+.btn {
+    cursor: pointer;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #06526b;
+    border-radius: 100px;
+}
+
+
